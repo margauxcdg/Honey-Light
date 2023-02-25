@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+.hero{
+    background: url("assets/Intersect.png") no-repeat;
+    background-color: #FFD699;
+    background-position:right top;
+    background-size: contain;
+    padding: 20px 100px 20px 100px;
+    background-attachment: fixed;
+}
+.vr{
+    opacity: 100%;
+    height: 45px;
+}
+.navbar-nav .active{
+    border-bottom: #ED8E00 solid 3px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Vidaloka', serif;
+}
+.heading1{
+    font-size: 100px;
+}
+.text-yellow{
+    color:#ED8E00;
+}
+.nav{
+    letter-spacing: 2.5px;
+    padding-right:18% ;
+}
+button{
+    letter-spacing: 2px;
+}
+.heading2{
+    font-size: 75px;
+    padding-top: 5%;
+   padding-bottom: 5%;
+}
+.featured{
+    height: 500px;
+}
+.featured img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+.text{
+    font-size: 26px;
+    padding: 20px;
+}
+.carousel-item{
+    height: 500px;
+}
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.carousel{
+    padding:3%;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width:100%;
+    position: absolute;
+    z-index: 0;
+}
+.heading3{
+    font-size: 75px;
+}
+.btn-yellow{
+    background-color: #ED8E00;
+    padding: 10px 40px;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+}
+
+.btn-underline{
+    padding: 3px 10px;
+    border-bottom: #ED8E00 3px solid;
+    text-decoration: none;
+    color: black;
+}
+.card{
+    border-radius: 0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 6px 0 rgba(0, 0, 0, 0.19);
+}
+.about-us{
+    padding-left:10%;
+    padding-right: 10%;
+}
+.HoneyLight{
+    height: 500px;
+}
+.HoneyLight .img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+.text1{
+    font-size: 26px;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+.btn{
+    padding-left: 4%;
+}
+.about-us2{
+    padding-top: 3%;
+    padding-left: 13%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+}
+.hex{
+    display: flex;
+
+}
+.title{
+    text-align:left;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.sub{
+    font-size: 22px;
+}
